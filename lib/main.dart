@@ -36,7 +36,7 @@ class _magicBallState extends State<magicBall> {
   choiceChange() {
     setState(() {
       choice = Random().nextInt(6) ;
-    }); -
+    });
   }
     @override
     Widget build(BuildContext context) {
